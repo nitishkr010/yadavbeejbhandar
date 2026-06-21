@@ -4,7 +4,7 @@ const AdminOrders = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/admin/orders")
+    fetch("https://yadavbeejbhandarr.onrender.com/api/admin/orders")
       .then((res) => res.json())
       .then((data) => setOrders(data))
       .catch((err) => console.log(err));
@@ -16,7 +16,7 @@ const AdminOrders = () => {
   ) => {
     try {
       await fetch(
-        `http://localhost:5000/api/admin/orders/${orderId}`,
+        `https://yadavbeejbhandarr.onrender.com/api/admin/orders/${orderId}`,
         {
           method: "PUT",
           headers: {
@@ -44,7 +44,7 @@ const AdminOrders = () => {
   const deleteOrder = async (orderId) => {
     try {
       await fetch(
-        `http://localhost:5000/api/admin/orders/${orderId}`,
+        `https://yadavbeejbhandarr.onrender.com/api/admin/orders/${orderId}`,
         {
           method: "DELETE",
         }

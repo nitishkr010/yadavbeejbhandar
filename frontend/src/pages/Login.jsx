@@ -21,7 +21,7 @@ const Login = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:5000/api/users/login",
+        "https://yadavbeejbhandarr.onrender.com/api/users/login",
         {
           method: "POST",
           headers: {

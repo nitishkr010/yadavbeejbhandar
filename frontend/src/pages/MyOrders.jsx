@@ -11,7 +11,7 @@ const MyOrders = () => {
     if (!user) return;
 
     fetch(
-      `http://localhost:5000/api/orders/${user._id}`
+      `https://yadavbeejbhandarr.onrender.com/api/orders/${user._id}`
     )
       .then((res) => res.json())
       .then((data) => setOrders(data))

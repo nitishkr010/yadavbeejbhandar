@@ -7,7 +7,7 @@ const Seeds = () => {
   useEffect(() => {
 
     fetch(
-      "http://localhost:5000/api/products?category=Seeds"
+      "https://yadavbeejbhandarr.onrender.com/api/products?category=Seeds"
     )
       .then((res) => res.json())
       .then((data) => {
@@ -29,7 +29,7 @@ const Seeds = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:5000/api/cart/add",
+        "https://yadavbeejbhandarr.onrender.com/api/cart/add",
         {
           method: "POST",
           headers: {

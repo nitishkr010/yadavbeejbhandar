@@ -17,7 +17,7 @@ const EditProduct = () => {
   });
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/products/${id}`)
+    fetch(`https://yadavbeejbhandarr.onrender.com/api/products/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data))
       .catch((err) => console.log(err));
@@ -39,7 +39,7 @@ const EditProduct = () => {
     };
 
     await fetch(
-      `http://localhost:5000/api/products/${id}`,
+      `https://yadavbeejbhandarr.onrender.com/api/products/${id}`,
       {
         method: "PUT",
         headers: {

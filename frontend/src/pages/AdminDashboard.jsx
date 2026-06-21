@@ -16,7 +16,7 @@ if (user?.email !== "nitishkr7501@gmail.com") {
 }
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/admin/stats")
+    fetch("https://yadavbeejbhandarr.onrender.com/api/admin/stats")
       .then((res) => res.json())
       .then((data) => setStats(data))
       .catch((err) => console.log(err));

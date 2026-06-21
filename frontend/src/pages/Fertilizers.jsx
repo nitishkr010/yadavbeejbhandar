@@ -14,7 +14,7 @@ const Fertilizers = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:5000/api/cart/add",
+        "https://yadavbeejbhandarr.onrender.com/api/cart/add",
         {
           method: "POST",
           headers: {
@@ -37,7 +37,7 @@ const Fertilizers = () => {
 
   useEffect(() => {
     fetch(
-      "http://localhost:5000/api/products?category=Fertilizer"
+      "https://yadavbeejbhandarr.onrender.com/api/products?category=Fertilizer"
     )
       .then((res) => res.json())
       .then((data) => {

@@ -8,7 +8,7 @@ const AdminProducts = () => {
 
   const fetchProducts = async () => {
     const res = await fetch(
-      "http://localhost:5000/api/products"
+      "https://yadavbeejbhandarr.onrender.com/api/products"
     );
 
     const data = await res.json();
@@ -22,7 +22,7 @@ const AdminProducts = () => {
 
   const deleteProduct = async (id) => {
     await fetch(
-      `http://localhost:5000/api/products/${id}`,
+      `https://yadavbeejbhandarr.onrender.com/api/products/${id}`,
       {
         method: "DELETE",
       }

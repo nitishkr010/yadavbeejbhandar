@@ -19,7 +19,7 @@ const Cart = () => {
     if (!user) return;
 
     fetch(
-      `http://localhost:5000/api/cart/${user._id}`
+      `https://yadavbeejbhandarr.onrender.com/api/cart/${user._id}`
     )
       .then((res) => res.json())
       .then((data) => setCartItems(data))
@@ -29,7 +29,7 @@ const Cart = () => {
   const removeFromCart = async (cartId) => {
     try {
       await fetch(
-        `http://localhost:5000/api/cart/${cartId}`,
+        `https://yadavbeejbhandarr.onrender.com/api/cart/${cartId}`,
         {
           method: "DELETE",
         }
@@ -63,7 +63,7 @@ const Cart = () => {
 
   try {
     const res = await fetch(
-      "https://yadavbeejbhandar2.onrender.com/api/orders/place",
+      "https://yadavbeejbhandarr.onrender.com/api/orders/place",
       {
         method: "POST",
         headers: {

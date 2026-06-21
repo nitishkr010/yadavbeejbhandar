@@ -14,7 +14,7 @@ const ProductsPages = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:5000/api/cart/add",
+        "https://yadavbeejbhandarr.onrender.com/api/cart/add",
         {
           method: "POST",
           headers: {
@@ -36,7 +36,7 @@ const ProductsPages = () => {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/products")
+    fetch("https://yadavbeejbhandarr.onrender.com/api/products")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);

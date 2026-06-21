@@ -18,7 +18,7 @@ const Register = () => {
     e.preventDefault();
 
     const res = await fetch(
-      "http://localhost:5000/api/users/register",
+      "https://yadavbeejbhandarr.onrender.com/api/users/register",
       {
         method: "POST",
         headers: {
