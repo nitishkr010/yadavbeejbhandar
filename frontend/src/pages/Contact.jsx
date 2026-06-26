@@ -32,7 +32,7 @@ const Contact = () => {
 
               <div className="flex items-center gap-4">
                 <FaEnvelope className="text-green-700 text-xl" />
-                <span>info@yadavbeejbhandar.com</span>
+                <span>info@AgriStore.com</span>
               </div>
 
               <div className="flex items-center gap-4">

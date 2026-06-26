@@ -11,7 +11,7 @@ const About = () => {
           </h1>
 
           <p className="text-gray-600 mt-4 text-lg">
-            Yadav Beej Bhandar - Behtar Beej, Behtar Fasal
+             AgriStore - Behtar Beej, Behtar Fasal
           </p>
         </div>
 
@@ -28,11 +28,11 @@ const About = () => {
 
           <div>
             <h2 className="text-3xl font-bold text-green-700 mb-4">
-              Welcome To Yadav Beej Bhandar
+              Welcome To   AgriStore
             </h2>
 
             <p className="text-gray-700 leading-8">
-              Yadav Beej Bhandar Harigaon, Bhojpur, Bihar me sthit ek
+                AgriStore Harigaon, Bhojpur, Bihar me sthit ek
               vishwasniya krishi dukaan hai. Hum kisano ko uchch gunwatta
               wale beej, khaad, pesticide aur krishi upkaran uplabdh karate hain.
             </p>

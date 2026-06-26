@@ -28,7 +28,7 @@ const AddProduct = () => {
     };
 
     const res = await fetch(
-      "http://localhost:5000/api/products",
+      "https://yadavbeejbhandarr.onrender.com/api/products",
       {
         method: "POST",
         headers: {

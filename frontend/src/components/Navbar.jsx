@@ -52,16 +52,14 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="block">
            <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-green-700 leading-none">
-              YADAV
+           AgriStore
             </h1>
 
             <h2 className="text-xl font-bold text-red-600">
-              BEEJ BHANDAR
+              Behtar Beej, Behtar Fasal
             </h2>
 
-            <p className="text-gray-500 text-sm">
-              Behtar Beej, Behtar Fasal
-            </p>
+           
           </Link>
 
           {/* Search */}

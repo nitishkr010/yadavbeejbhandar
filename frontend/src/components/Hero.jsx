@@ -18,7 +18,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-6 text-gray-600 text-lg">
-              Yadav Beej Bhandar me milega premium quality seeds,
+                AgriStore me milega premium quality seeds,
               fertilizers aur pesticides. Apni fasal ki paidawar badhayein
               aur behtar kheti karein.
             </p>
@@ -54,7 +54,7 @@ const Hero = () => {
           {/* Right Side */}
           <div>
             <img
-              src="shopimage1.png"
+              src="shopimage2.png"
               alt="ShopImage1"
               className="w-full rounded-3xl shadow-2xl"
             />

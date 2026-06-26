@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Company */}
         <div>
           <h2 className="text-2xl font-bold">
-            Yadav Beej Bhandar
+              AgriStore
           </h2>
 
           <p className="mt-4 text-gray-300">
@@ -59,7 +59,7 @@ const Footer = () => {
 
           <p>📍Harigaon,Bhojpur,Bihar</p>
           <p>📞 +91 8757915227</p>
-          <p>✉️ info@yadavbeejbhandar.com</p>
+          <p>✉️ info@AgriStore.com</p>
 
           <div className="flex gap-4 mt-5 text-2xl">
             <FaFacebook />
@@ -72,7 +72,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-green-700 text-center py-4">
-        © 2026 Yadav Beej Bhandar. All Rights Reserved.
+        © 2026   AgriStore. All Rights Reserved.
       </div>
 
     </footer>
